@@ -6,7 +6,7 @@ lent = len(coins) - 1
 
 def coinsRequired(n):
     global lent
-    while lent >= 0 and (n >= 0):
+    while (lent >= 0) and (n >= 0):
 
         if n >= coins[lent]:
             x = coins[lent]
@@ -17,10 +17,8 @@ def coinsRequired(n):
 
     return sum
 
-print coinsRequired(99)   #this is a much better solution than the previous one
+print coinsRequired(99)   #this approach is actually greedy approach
 
-#this program is designed in such a way that it can scale very easily
-#you just need you enter the amount and it will show you the answer and this is called dynamic programming
 
 
 

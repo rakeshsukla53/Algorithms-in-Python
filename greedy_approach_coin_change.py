@@ -22,6 +22,6 @@ def coinsRequired(n, x):
 
     return sum
 
-print coinsRequired(50, 15)   #the coin problem can be solved using dynamic programming
+print coinsRequired(50, 15)   #the coin problem can be solved using greedy approach
 
 
