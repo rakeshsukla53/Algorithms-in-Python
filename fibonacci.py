@@ -14,4 +14,3 @@ def Fibo(n):
 
 print Fibo(100)
 
-    
